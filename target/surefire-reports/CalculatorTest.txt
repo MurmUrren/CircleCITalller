@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in CalculatorTest
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in CalculatorTest
+CalculatorTest.divide  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <10.0> but was: <1.0>
+	at CalculatorTest.divide(CalculatorTest.java:26)
+
