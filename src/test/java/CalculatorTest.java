@@ -23,7 +23,7 @@ public class CalculatorTest {
     @Test
     @DisplayName("Divide two numbers")
     public void divide() {
-        assertAll(() -> assertEquals(10, Calculator.divide(2, 2)),
+        assertAll(() -> assertEquals(20, Calculator.divide(2, 2)),
                 () -> assertEquals(-1, Calculator.divide(2, -2)),
                 () -> assertEquals(1, Calculator.divide(-2, -2)));
     }
